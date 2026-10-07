@@ -1,5 +1,5 @@
 
-import { test, expect } from "./fixtures";
+import { test, expect } from "../fixtures/fixtures";
 
 test.describe("Product tests", { tag: "@regression" }, () => {
   test("Verify all products are displayed on the products page", async ({ loginPage, productPage }) => {
